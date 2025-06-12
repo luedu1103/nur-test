@@ -4,7 +4,7 @@ fn print_shit(input: &str) {
  if input.is_empty() {
         println!("No input provided.");
     } else {
-        println!("Hello from Nur!!!!!!: {}", input);
+        println!("Hello from Nur!!!!: {}", input);
     }
 }
 
