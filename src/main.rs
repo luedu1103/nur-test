@@ -1,5 +1,13 @@
 use std::io::{self, Read};
 
+fn print_shit(input: &str) {
+ if input.is_empty() {
+        println!("No input provided.");
+    } else {
+        println!("Hello from Nur!: {}", input);
+    }
+}
+
 fn main() {
     // Read from stdin
     let mut input = String::new();
@@ -7,9 +15,6 @@ fn main() {
 
     // Process input
     let input = input.trim();
-    if input.is_empty() {
-        println!("No input provided.");
-    } else {
-        println!("Hello from Nur!: {}", input);
-    }
+    print_shit(input);
 }
+
