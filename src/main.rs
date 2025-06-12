@@ -1,9 +1,15 @@
-fn main() {
-    println!("Hello, Nur!");
-    let name = "Eduardo";
-    say_name(name.to_string());
-}
+use std::io::{self, Read};
 
-fn say_name(name: String){
-    println!("Maybe yout name is {name}");
+fn main() {
+    // Read from stdin
+    let mut input = String::new();
+    io::stdin().read_to_string(&mut input).unwrap();
+
+    // Process input
+    let input = input.trim();
+    if input.is_empty() {
+        println!("No input provided.");
+    } else {
+        println!("Hello from Nur! You sent: {}", input);
+    }
 }
