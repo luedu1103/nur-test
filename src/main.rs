@@ -10,6 +10,6 @@ fn main() {
     if input.is_empty() {
         println!("No input provided.");
     } else {
-        println!("Hello from Nur! You sent: {}", input);
+        println!("Hello from Nur!: {}", input);
     }
 }
