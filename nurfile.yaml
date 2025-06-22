@@ -6,9 +6,3 @@ functions:
       command: cargo build --target wasm32-wasip1 --release
       output: target/wasm32-wasip1/release/nur-test.wasm
 
-  - name: nur-test-function-2
-    directroy: /function2
-    template: rust
-    build:
-      command: cargo build --target wasm32-wasip1 --release
-      output: target/wasm32-wasip1/release/nur-test.wasm
