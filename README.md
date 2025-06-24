@@ -3,4 +3,4 @@ Simple nur-test that doesnt work but can compile to wasm.
 This should work
 Trying docker crate: bollard
 Github checks finally !!
-Double pushes when checks permissions are activated :c
+A check body is the same as a push !!
