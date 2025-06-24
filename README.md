@@ -2,4 +2,4 @@
 Simple nur-test that doesnt work but can compile to wasm.
 This should work
 Trying docker crate: bollard
-Github checks !!
+Github checks finally !!
